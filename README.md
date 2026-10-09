@@ -330,7 +330,7 @@
                     </div>
                 </a>
 
-                <!-- Phone Card -->
+                 <!-- Phone Card -->
                 <a href="tel:09391088094" class="bg-white p-8 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md transition-all flex items-center gap-5 group" id="contact-phone-card">
                     <div class="w-14 h-14 rounded-2xl bg-emerald-50 text-emerald-600 flex items-center justify-center shrink-0 font-bold text-2xl group-hover:bg-emerald-600 group-hover:text-white transition-colors">
                         <i class="fa-solid fa-phone"></i>
@@ -380,3 +380,6 @@
             menu.classList.toggle('hidden');
         }
     </script>
+</body>
+</html>
+
