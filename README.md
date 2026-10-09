@@ -331,4 +331,52 @@
                 </a>
 
                 <!-- Phone Card -->
-                <a href="tel:09391088094" class="bg-white p-8 rounded-2xl border border-slate-200 shadow-sm hover:s
+                <a href="tel:09391088094" class="bg-white p-8 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md transition-all flex items-center gap-5 group" id="contact-phone-card">
+                    <div class="w-14 h-14 rounded-2xl bg-emerald-50 text-emerald-600 flex items-center justify-center shrink-0 font-bold text-2xl group-hover:bg-emerald-600 group-hover:text-white transition-colors">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <div>
+                        <p class="text-xs text-slate-500 font-semibold uppercase tracking-wider mb-1">Call or Text</p>
+                        <p class="text-base sm:text-lg font-bold text-slate-900 group-hover:text-emerald-600 transition-colors">
+                            09391088094
+                        </p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-slate-400 py-12 border-t border-slate-800" id="main-footer">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-6 text-center md:text-left">
+                <div>
+                    <div class="text-white font-extrabold text-xl mb-1">
+                        Symon Kyle Garcia
+                    </div>
+                    <p class="text-xs text-slate-400">Your Virtual Assistant</p>
+                </div>
+
+                <div class="flex flex-wrap items-center justify-center gap-6 text-sm">
+                    <a href="mailto:symonkyleg@gmail.com" class="hover:text-white transition-colors">
+                        <i class="fa-solid fa-envelope mr-1.5"></i>symonkyleg@gmail.com
+                    </a>
+                    <a href="tel:09391088094" class="hover:text-white transition-colors">
+                        <i class="fa-solid fa-phone mr-1.5"></i>09391088094
+                    </a>
+                </div>
+
+                <p class="text-xs text-slate-500">
+                    &copy; Symon Kyle Garcia. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script for Interactions -->
+    <script>
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        }
+    </script>
